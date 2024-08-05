@@ -16,7 +16,7 @@ int main(){
     }
     for(i=0;i<9;i++){
         if(temp[i][19] == temp[i+1][19])
-        cout<<"The missing number is "<<i+2;
+        cout<<"The missing number is "<<arr[i]+1;
     }
     return 0;
 }
