@@ -15,3 +15,26 @@ AIM - To display all the possible triplets from the 10 numbers, such that sum of
 6) In the innermost loop the condition will be written -> if(arr[i]+arr[j]==arr[k]) then print the triplet.
 
 OUTPUT - All triplets in the form of a + b = c will get printed.
+____________________________________________________________________________________________________________________________________________
+
+Asking User to Input any 10 consecutive numbers (Expecting that User accidently misses a number in between anywhere).
+
+AIM - To find out that missing number and display on screen by using binary numbers.
+
+1) Taking 10 consecutive decimal numbers from user and storing in array arr[].
+
+2) Converting each member of the array from decimal to binary (using #include<bitset>) allocating 20 bits to the binary number.
+
+3) Now, if the numbers are consecutive, the last bit of each binary number should be in order 1 0 1 0 1 0 1... and so on.
+
+4) Wherever the user will make a mistake, a change in pattern will be observed as 1 0 1 0 1 1 0 1 0... like this.
+
+5) For this, we convert each binary number into string by type casting and store it into a new array temp[] which contains strings.
+
+6) Accessing last character of each element of the array of strings and comparing with just next element ( temp[i][19] == temp[i+1][19] or not).
+
+7) Wherever the if condition gets satisfied, printing arr[i]+1 will give the missing number.
+
+OUTPUT - Missing number from any 10 consecutive numbers will be displayed.
+_______________________________________________________________________________________________________________________________________________
+
