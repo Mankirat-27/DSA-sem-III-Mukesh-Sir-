@@ -38,3 +38,16 @@ AIM - To find out that missing number and display on screen by using binary numb
 OUTPUT - Missing number from any 10 consecutive numbers will be displayed.
 _______________________________________________________________________________________________________________________________________________
 
+Asking User to Input any Number (num) and it's Power (pow).
+
+AIM - To find power num^pow. Condition --> Loop should run less than value of pow times. 
+
+1) If power is even, finding num's power pow/2, and asking compiler to return ans*ans (Thus running the loop pow/2 times).
+
+2) If power is odd, finding num's power (pow-1)/2, and asking compiler to return ans*ans*num (Thus running the loop (pow-1)/2 times).
+__________________________________________________________________________________________________________________________________________________
+
+Asking User to Input the Velocity by which ball is being dropped.
+
+AIM - To find the number of times ball bounces before it stops.
+___________________________________________________________________________________________________________________________________________________
